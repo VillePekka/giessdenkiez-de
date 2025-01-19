@@ -29,8 +29,8 @@
   - Change directory to `giessdenkiez-de-postgres-api` repository, make sure you have checked out the `master` branch
   - `nvm install && nvm use`
   - `npm ci`
-  - `cp .env.sample .env`
-  - Load the `.env` file: `direnv allow`
+  - `cp .env.example .envrc`
+  - Load the `.envrc` file: `direnv allow`
   - `npx supabase start` which will start a local [Supabase](https://supabase.com/) instance
   - Now the Postgres database (and all other Supabase services) are running locally in Docker containers
   - To see all local Supabase credentials and tokens, use `npx supabase status`
